@@ -11,6 +11,12 @@
 
 body{
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 /* Hero */
@@ -20,23 +26,37 @@ body{
     color: #e5e7eb;
     font-size: 18px;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.header,
+.hero-box{
+    width: 80%;
+}
+
+.hero-box{
+    height: 400px;
+}
+
+.hero-text{
+    flex-direction: column;
 }
 
 /* Nav and Footer */
 
-nav,
+.header,
 footer{
     height: 70px;
     align-items: center;
 }
 
-nav{
+.header{
     margin-bottom: auto;
     justify-content: space-between;
-    padding: 16px;
 }
 
-nav ul{
+.header ul{
     gap: 16px;
     list-style-type: none;
 }
@@ -52,13 +72,17 @@ footer{
 /* Info */
 
 .info{
-    flex: 1;
+    height: 400px;
 }
+
+/* Quotes */
 
 .quotes{
-    flex: 1;
+    height: 400px;
 }
 
+/* Marketing */
+
 .marketing{
-    flex: 1;
+    height: 400px;
 }
