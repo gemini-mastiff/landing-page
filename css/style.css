@@ -38,6 +38,9 @@ a{
     height: 30px;
     width: 100px;
     border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 /* Hero */
@@ -53,18 +56,21 @@ a{
 .hero-box{
     height: 400px;
     padding: 24px;
-    gap: 10px;
+    gap: 40px;
     align-items: center;
 }
 
 .hero-text{
     flex-direction: column;
     flex: 1;
+    gap: 10px;
     height: 300px;
 }
 
 .hero-text h2{
     font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
 
 .hero-box .img{
@@ -72,8 +78,7 @@ a{
     align-self: center;
     text-align: center;
     height: 300px;
-    background-color: lightgray;
-    color: #1f2937;
+    background-color: grey;
 }
 
 /* Nav and Footer */
