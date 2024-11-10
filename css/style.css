@@ -2,4 +2,63 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
+}
+
+.container{
+    display: flex;
+}
+
+body{
+    flex-direction: column;
+}
+
+/* Hero */
+
+.hero{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    flex-direction: column;
+}
+
+/* Nav and Footer */
+
+nav,
+footer{
+    height: 70px;
+    align-items: center;
+}
+
+nav{
+    margin-bottom: auto;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+nav ul{
+    gap: 16px;
+    list-style-type: none;
+}
+
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: auto;
+    justify-content: center;
+}
+
+/* Info */
+
+.info{
+    flex: 1;
+}
+
+.quotes{
+    flex: 1;
+}
+
+.marketing{
+    flex: 1;
 }
