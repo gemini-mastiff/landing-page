@@ -111,6 +111,36 @@ footer{
 
 .info{
     height: 400px;
+    background-color: #f9faf8;
+}
+
+.info-list{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-list h2{
+    padding: 40px;
+}
+
+.card-list{
+    flex: 1;
+    gap: 10px;
+}
+
+.card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-list .placeholder{
+    height: 125px;
+    width: 125px;
+    border: solid #3882f6 3px;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 /* Quotes */
