@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -15,7 +15,7 @@
 
 .content{
     display: flex;
-    width: 80%;
+    width: 65%;
 }
 
 .container{
@@ -58,6 +58,7 @@ a{
     padding: 24px;
     gap: 40px;
     align-items: center;
+    width: 80%;
 }
 
 .hero-text{
@@ -147,6 +148,25 @@ footer{
 
 .quotes{
     height: 400px;
+    background-color: #e5e7eb;
+}
+
+.quote-box{
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.quote-box .quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-box .citation{
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* Marketing */
