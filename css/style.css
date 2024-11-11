@@ -22,6 +22,7 @@ body{
 
 .content{
     display: flex;
+    padding: 20px;
 }
 
 .container{
@@ -121,14 +122,14 @@ footer{
 }
 
 .info-list{
-    width: 750px;
+    width: 800px;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .info-list h2{
-    padding: 40px;
+    padding: 20px;
 }
 
 .card-list{
@@ -136,6 +137,7 @@ footer{
     gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .card {
