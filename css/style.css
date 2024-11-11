@@ -6,11 +6,15 @@
 }
 
 body{
+    min-width: 100vw;
+    min-height: 100vh;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .full{
+    flex: 1 1 auto;
+    min-height: 400px;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -18,7 +22,6 @@ body{
 
 .content{
     display: flex;
-    width: 80%;
 }
 
 .container{
@@ -52,7 +55,8 @@ a{
 }
 
 .hero-box{
-    height: 400px;
+    width: 80%;
+    min-height: 400px;
     padding: 24px;
     gap: 40px;
     align-items: center;
@@ -100,6 +104,9 @@ footer{
 }
 
 footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
@@ -110,7 +117,6 @@ footer{
 /* Info */
 
 .info{
-    height: 400px;
     background-color: #f9faf8;
 }
 
@@ -118,7 +124,7 @@ footer{
     width: 750px;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .info-list h2{
@@ -128,9 +134,12 @@ footer{
 .card-list{
     flex: 1;
     gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
+    width: 155px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -147,7 +156,6 @@ footer{
 /* Quotes */
 
 .quotes{
-    height: 400px;
     background-color: #e5e7eb;
 }
 
@@ -156,6 +164,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 .quote-box .quote{
@@ -173,7 +182,6 @@ footer{
 /* Marketing */
 
 .marketing{
-    height: 400px;
     justify-content: center;
     align-items: center;
 }
