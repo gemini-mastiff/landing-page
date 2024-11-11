@@ -5,6 +5,10 @@
     /* border: 1px solid red; */
 }
 
+body{
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .full{
     display: flex;
@@ -19,11 +23,6 @@
 
 .container{
     display: flex;
-}
-
-body{
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -129,7 +128,6 @@ footer{
 .card-list{
     flex: 1;
     gap: 40px;
-    flex-wrap: wrap;
 }
 
 .card {
