@@ -43,6 +43,7 @@ a{
     border: none;
     font-weight: bold;
     font-size: 14px;
+    flex-shrink: 0;
 }
 
 /* Hero */
@@ -70,7 +71,11 @@ a{
     flex: 1;
     flex-direction: column;
     gap: 10px;
-    height: 300px;
+    min-height: 300px;
+}
+
+.hero-text button{
+    flex: 0 0 auto;
 }
 
 .hero-text h2{
@@ -215,6 +220,5 @@ footer{
 }
 
 .call-to-action button{
-    flex-shrink: 0;
     border: #f9faf8 1px solid;
 }
