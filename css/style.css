@@ -12,10 +12,9 @@
     justify-content: center;
 }
 
-
 .content{
     display: flex;
-    width: 65%;
+    width: 80%;
 }
 
 .container{
@@ -58,7 +57,7 @@ a{
     padding: 24px;
     gap: 40px;
     align-items: center;
-    width: 80%;
+    flex-wrap: wrap;
 }
 
 .hero-text{
@@ -91,6 +90,7 @@ footer{
 }
 
 .header{
+    width: 80%;
     justify-content: space-between;
 }
 
@@ -116,6 +116,7 @@ footer{
 }
 
 .info-list{
+    width: 750px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
@@ -127,7 +128,8 @@ footer{
 
 .card-list{
     flex: 1;
-    gap: 10px;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -152,6 +154,7 @@ footer{
 }
 
 .quote-box{
+    width: 750px;
     flex-direction: column;
     justify-content: center;
     gap: 8px;
@@ -173,4 +176,33 @@ footer{
 
 .marketing{
     height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action{
+    width:  900px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    gap: 20px;
+}
+
+.cta-text{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cta-text h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-to-action button{
+    flex-shrink: 0;
+    border: #f9faf8 1px solid;
 }
